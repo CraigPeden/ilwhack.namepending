@@ -1,6 +1,6 @@
 <?php 
 
-	class Namepending extends CI_Controller 
+	class Skyhopper extends CI_Controller 
 	{
 
 		function __construct() 
@@ -19,6 +19,7 @@
 		function index()
 		{				
 			$this->load->view('assets/header');
+			$this->load->view('assets/main');
 			$this->load->view('assets/footer');
 		}
 		

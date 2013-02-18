@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "namepending";
+$route['default_controller'] = "skyhopper";
 $route['404_override'] = '';
 
 
