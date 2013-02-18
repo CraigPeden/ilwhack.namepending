@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     
-    <title>Name Pending</title>
+    <title>SkyHopper</title>
     
     <meta name="description" content="#ilwhack">
     <meta name="author" content="NamePending">
@@ -28,13 +28,13 @@
 <body>
 	<header class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container-fluid">
+        <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Project name</a>
+          <a class="brand" href="#">SkyHopper</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
               Logged in as <a href="#" class="navbar-link">Username</a>
