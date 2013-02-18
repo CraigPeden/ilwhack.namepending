@@ -5,7 +5,10 @@
             	<h1>Departing Airport</h1>
             </div>
             <div class="transitionbulletone">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletthree">•</div>
-            <a href="#" class="btn addhop"><i class="icon icon-plus"></i>Add a hop</a>
+            <div class="addHopContainer">
+            	<a href="#" class="btn addhop">Add a hop</a>
+            </div>
+            <div class="transitionbulletthree">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletone">•</div>
             <div class="hero-unit">
             	<h1>Arriving Airport</h1>
             </div>

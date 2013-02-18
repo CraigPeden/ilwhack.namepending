@@ -22,8 +22,14 @@
 	text-align: center;
 }
 
-.addhop {
-	width: 150px;
+.addHopContainer {
 	margin-left: auto;
 	margin-right: auto;
+	width: 180px;
+}
+
+.addhop {
+	margin-left: auto;
+	margin-right: auto;
+	width: 156px;
 }
