@@ -1,6 +1,6 @@
 ilwhack.namepending
 ===================
 
-#1LW|-|4XX
+#ILWhack
 
-#74LK IN 1337 GUIZ3, W3 R H4XX0Rz
+<img src="http://i.imgur.com/A0FrG9p.jpg" alt="SkyHopper Logo">
