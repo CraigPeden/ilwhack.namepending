@@ -14,14 +14,14 @@
     <![endif]-->
 
     <!-- Le Styles -->
-    <link href="../../ilwhack.namepending/css/skyhopper.css" rel="stylesheet">
-    <link href="../../ilwhack.namepending/css/bootstrap.css" rel="stylesheet">
+    <link href="<?= base_url('/css/skyhopper.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('/css/bootstrap.css'); ?>" rel="stylesheet">
     <style>
     	body {
     		padding-top: 60px;
     	}
     </style>
-    <link href="../../ilwhack.namepending/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?= base_url('/css/bootstrap-responsive.css'); ?>" rel="stylesheet">
     
 </head>
 

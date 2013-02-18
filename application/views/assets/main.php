@@ -6,7 +6,7 @@
             </div>
             <div class="transitionbulletone">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletthree">•</div>
             <div class="addHopContainer">
-            	<a href="#" class="btn addhop">Add a hop</a>
+            	<button class="btn addhop">Add a hop</button>
             </div>
             <div class="transitionbulletthree">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletone">•</div>
             <div class="hero-unit">
