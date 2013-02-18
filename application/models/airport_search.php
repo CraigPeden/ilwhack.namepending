@@ -13,6 +13,11 @@ class Airport_search extends CI_Model {
 			array_push($airport_names, $airport->airport);
 		}
 
+		if (count($airport_names) > 5)
+		{
+			return array();
+		}
+
 		return $airport_names;
 	}
 }

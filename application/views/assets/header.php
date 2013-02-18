@@ -22,10 +22,6 @@
     	}
     </style>
     <link href="<?= base_url('/css/bootstrap-responsive.css'); ?>" rel="stylesheet">
-    
-    <!-- Scripts -->
-    <script type="text/javascript" src="<?= base_url('/js/airport_search.js'); ?>"></script>
-
 </head>
 
 <body>
