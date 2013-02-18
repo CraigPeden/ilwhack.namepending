@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
     
-    <title>Name Pending</title>
+    <title>SkyHopper</title>
     
     <meta name="description" content="#ilwhack">
-    <meta name="author" content="NamePending">
+    <meta name="author" content="SkyHopper">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -23,6 +23,9 @@
     </style>
     <link href="<?= base_url('/css/bootstrap-responsive.css'); ?>" rel="stylesheet">
     
+    <!-- Scripts -->
+    <script type="text/javascript" src="<?= base_url('/js/airport_search.js'); ?>"></script>
+
 </head>
 
 <body>
