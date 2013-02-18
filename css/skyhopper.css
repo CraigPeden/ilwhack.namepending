@@ -31,5 +31,9 @@
 .addhop {
 	margin-left: auto;
 	margin-right: auto;
-	width: 156px;
+	width: 154px;
+}
+
+.arrival {
+	margin-top: 30px;
 }
