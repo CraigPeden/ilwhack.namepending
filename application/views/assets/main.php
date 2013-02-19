@@ -8,7 +8,7 @@
 			<form class="form-inline">
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input type="text" class="span4 airport typeahead" placeholder="Airport" autocomplete="off" data-provide="typeahead" data-items="5" data-source='["Edinburgh","Glasgow"]'>
+					<input type="text" class="span4 airport" placeholder="Airport" autocomplete="off" data-provide="typeahead" data-items="5" data-source='[]'>
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-calendar"></i></span>
