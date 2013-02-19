@@ -8,7 +8,7 @@
 			<form class="form-inline">
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="start-airport" type="text" class="span1 airport_code" placeholder="IATA" style="border-radius:0px;">
+					<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
 				</div>
 				<div class="input-prepend">
 					<!--<span class="add-on"><i class="icon-plane"></i></span>-->
@@ -34,11 +34,15 @@
     		<form class="form-inline">
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input type="text" class="span4 airport" placeholder="Airport" data-provide="typeahead" data-items="5" data-source="[]">
+					<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
+				</div>
+				<div class="input-prepend">
+					<!--<span class="add-on"><i class="icon-plane"></i></span>-->
+					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-calendar"></i></span>
-					<input type="text" class="span2" placeholder="Arrival Date" data-date-format="dd/mm/yy" id="dp2">
+					<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp2">
 				</div>
 		    </form>
     	</div>
