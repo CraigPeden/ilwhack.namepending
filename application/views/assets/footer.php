@@ -8,7 +8,10 @@
 		<script src="<?= base_url('/js/bootstrap.js'); ?>"></script>
 		<script type="text/javascript" src="<?= base_url('/js/airport_search.js'); ?>"></script>
 		<script type="text/javascript">
-			$('#dp1').datepicker();
+			$(document).ready(function() {
+				$('#dp1').datepicker();
+			});
+			
 		</script>
 	</body>
 </html>
