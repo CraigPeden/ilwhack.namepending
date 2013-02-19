@@ -59,7 +59,7 @@
     <div class="hop_container arrival">
     	<div class="airports_body">
     		<form class="form-inline">
-    			<span class="help-inline hop_container_title">Departure</span>
+    			<span class="help-inline hop_container_title">Destination</span>
     			<div class="pull-right">
 					<div class="input-prepend">
 						<span class="add-on"><i class="icon-plane"></i></span>
