@@ -11,9 +11,10 @@
 			$(document).ready(function() {
 				$('#dp1').datepicker();
 				$('#dp2').datepicker();
-				$(".addhop").click(function(){ 
-					$(".hopone").show();
-					event.preventDefault()
+				$(".addhop").click(function () {
+					$(".hop").first().show("slow", function showNext() {
+						$(this).next(".hop").show("slow", showNext);
+					});
 				});
 				$(".hoponedelete").click(function(){ 
 					$(".hopone").hide();
