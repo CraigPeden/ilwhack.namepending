@@ -11,6 +11,11 @@
 			$(document).ready(function() {
 				$('#dp1').datepicker();
 				$('#dp2').datepicker();
+				$(".addhop").click(function(){ 
+					$(".hopone").toggle();
+					event.preventDefault()
+				});
+
 			});
 			
 		</script>
