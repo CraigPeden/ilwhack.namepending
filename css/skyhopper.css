@@ -31,9 +31,27 @@
 .addhop {
 	margin-left: auto;
 	margin-right: auto;
-	width: 154px;
+	width: 180px;
 }
 
 .arrival {
-	margin-top: 30px;
+	margin-top: 10px;
+}
+
+.hop_container {
+	width: 940px;
+	padding: 10px 10px;
+	background-color: #eeeeee;
+	  -webkit-border-radius: 6px;
+	     -moz-border-radius: 6px;
+	          border-radius: 6px;
+}
+
+.airports_title {
+	border-bottom: 1px grey solid;
+	margin-bottom: 10px;
+}
+
+.hopone {
+	display: none;
 }
