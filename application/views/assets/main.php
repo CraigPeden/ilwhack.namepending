@@ -8,7 +8,11 @@
 			<form class="form-inline">
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport">>>>>>>> 6c66c81742147f8dc1f2f2fc01c838f92da6d782
+					<input id="start-airport" type="text" class="span1 airport_code" placeholder="IATA" style="border-radius:0px;">
+				</div>
+				<div class="input-prepend">
+					<!--<span class="add-on"><i class="icon-plane"></i></span>-->
+					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-calendar"></i></span>
