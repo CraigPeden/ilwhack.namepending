@@ -24,8 +24,13 @@
     <div class="transitionbulletone">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletthree">•</div>
     <div class="hopone">
 	    <div class="airports departure">
-			<div class="airports_title">
-	    		<h1>First Destination</h1>
+			<div class="airports_title row-fluid">
+				<div class="span5">
+	    			<h1>First Destination</h1>
+				</div>
+				<div class="pull-right">
+					<i class="icon-remove hoponedelete"></i>
+				</div>
 			</div>
 			<div class="airports_body">
 				<form class="form-inline">

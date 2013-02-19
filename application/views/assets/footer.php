@@ -12,7 +12,11 @@
 				$('#dp1').datepicker();
 				$('#dp2').datepicker();
 				$(".addhop").click(function(){ 
-					$(".hopone").toggle();
+					$(".hopone").show();
+					event.preventDefault()
+				});
+				$(".hoponedelete").click(function(){ 
+					$(".hopone").hide();
 					event.preventDefault()
 				});
 
