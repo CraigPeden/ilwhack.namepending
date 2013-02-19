@@ -8,11 +8,7 @@
 			<form class="form-inline">
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-<<<<<<< HEAD
-					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport">
-=======
-					<input type="text" class="span4 airport typeahead" placeholder="Airport" autocomplete="off" data-provide="typeahead" data-items="5" data-source='["Edinburgh","Glasgow"]'>
->>>>>>> 6c66c81742147f8dc1f2f2fc01c838f92da6d782
+					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport">>>>>>>> 6c66c81742147f8dc1f2f2fc01c838f92da6d782
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-calendar"></i></span>
