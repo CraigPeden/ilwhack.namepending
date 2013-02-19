@@ -1,6 +1,6 @@
 <div class="container">
 
-	<div class="airports departure">
+	<div class="hop_container departure">
 		<div class="airports_title">
     		<h1>Departing Airport</h1>
 		</div>
@@ -24,7 +24,7 @@
     
     <div class="hopone hop">
     	<div class="transitionbulletone">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletthree">•</div>
-	    <div class="airports departure">
+	    <div class="hop_container">
 			<div class="airports_title row-fluid">
 				<div class="span5">
 	    			<h1>First Destination</h1>
@@ -57,7 +57,7 @@
     	<button class="btn addhop"><i class="icon-plus"></i> Add a hop</button>
     </div>
     <div class="transitionbulletthree">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletone">•</div>
-    <div class="airports arrival">
+    <div class="hop_container arrival">
     	<div class="airports_title">
     		<h1>Arriving Airport</h1>
     	</div>

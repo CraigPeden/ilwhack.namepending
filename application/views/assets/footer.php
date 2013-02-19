@@ -17,7 +17,7 @@
 					});
 				});
 				$(".hoponedelete").click(function(){ 
-					$(".hopone").hide();
+					$(".hopone").hide(500);
 					event.preventDefault()
 				});
 
