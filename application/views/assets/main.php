@@ -22,7 +22,8 @@
     </div>
     
     <div class="hopone hop">
-    	<div class="transitionbulletone">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletthree">•</div>
+    	<div class="transitionbulletone">•</div>
+    	<div class="transitionbullettwo">•</div>
 	    <div class="hop_container">
 			<div class="airports_title row-fluid">
 				<div class="span5">
@@ -53,11 +54,15 @@
 	    </div>
 	    
     </div>
-    <div class="transitionbulletone">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletthree">•</div>
+    <div class="transitionbulletone">•</div>
+    <div class="transitionbullettwo">•</div>
+    
     <div class="addHopContainer">
     	<button class="btn addhop"><i class="icon-plus"></i> Add a hop</button>
     </div>
-    <div class="transitionbulletthree">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletone">•</div>
+    
+    <div class="transitionbullettwo">•</div>
+    <div class="transitionbulletone">•</div>
     <div class="hop_container arrival">
     	<div class="airports_body">
     		<form class="form-inline">
