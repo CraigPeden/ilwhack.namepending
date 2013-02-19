@@ -10,6 +10,7 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#dp1').datepicker();
+				$('#dp2').datepicker();
 			});
 			
 		</script>

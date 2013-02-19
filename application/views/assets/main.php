@@ -30,7 +30,15 @@
     		<form class="form-inline">
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
+<<<<<<< HEAD
 					<input type="text" class="span4 airport" placeholder="Airport">
+=======
+					<input type="text" class="span4 airport" placeholder="Airport" data-provide="typeahead" data-items="5" data-source="[]">
+				</div>
+				<div class="input-prepend">
+					<span class="add-on"><i class="icon-calendar"></i></span>
+					<input type="text" class="span2" placeholder="Arrival Date" data-date-format="dd/mm/yy" id="dp2">
+>>>>>>> Added second datepicker
 				</div>
 		    </form>
     	</div>
