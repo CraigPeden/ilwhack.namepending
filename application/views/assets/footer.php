@@ -3,21 +3,21 @@
 		</footer>
 	
 		<!-- <script src="<?php echo base_url("/js/jquery.js");?>"></script>-->
-		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script src="<?= base_url("/js/bootstrap-datepicker.js");?>"></script>
-		<script src="<?= base_url('/js/bootstrap.js'); ?>"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="<?= base_url("/js/bootstrap-datepicker.js");?>"></script>
+		<script type="text/javascript" src="<?= base_url('/js/bootstrap.js'); ?>"></script>
 		<script type="text/javascript" src="<?= base_url('/js/airport_search.js'); ?>"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#dp1').datepicker();
 				$('#dp2').datepicker();
-				$(".addhop").click(function () {
+				$(".hop_container_add").click(function () {
 					$(".hop").first().show("slow", function showNext() {
 						$(this).next(".hop").show("slow", showNext);
 					});
 				});
-				$(".hoponedelete").click(function(){ 
-					$(".hopone").hide(500);
+				$(".hop_container_delete").click(function(){ 
+					$(".hop_container_insert").hide(500);
 					event.preventDefault()
 				});
 

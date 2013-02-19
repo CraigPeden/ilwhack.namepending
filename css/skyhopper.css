@@ -28,7 +28,7 @@
 	width: 180px;
 }
 
-.addhop {
+.hop_container_add {
 	margin-left: auto;
 	margin-right: auto;
 	width: 180px;
@@ -42,7 +42,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 940px;
-	padding: 10px 10px;
+	padding: 15px 10px 25px 10px;
 	background-color: #eeeeee;
 	  -webkit-border-radius: 6px;
 	     -moz-border-radius: 6px;
@@ -54,8 +54,12 @@
 	margin-bottom: 10px;
 }
 
-.hopone {
+.hop_container_insert {
 	display: none;
+}
+
+.hop_container_delete {
+	margin-left: 5px;
 }
 
 .hop_container_title {
@@ -65,4 +69,13 @@
 	line-height: 20px;
 	color: inherit;
 	text-rendering: optimizelegibility;
+}
+
+.logo {
+	height: 30px;
+}
+
+.brand {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
 }

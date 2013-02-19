@@ -21,20 +21,12 @@
 		</div>
     </div>
     
-    <div class="hopone hop">
+    <div class="hop_container_insert hop">
     	<div class="transitionbulletone">•</div>
     	<div class="transitionbullettwo">•</div>
 	    <div class="hop_container">
-			<div class="airports_title row-fluid">
-				<div class="span5">
-	    			<h1>First Destination</h1>
-				</div>
-				<div class="pull-right">
-					<i class="icon-remove hoponedelete"></i>
-				</div>
-			</div>
 			<div class="airports_body">
-				<span class="help-inline">Inline help text</span>
+				<span class="help-inline hop_container_title">Hop</span>
 				<div class="pull-right">
 					<form class="form-inline">
 						<div class="input-prepend">
@@ -48,17 +40,18 @@
 							<span class="add-on"><i class="icon-calendar"></i></span>
 							<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp1">
 						</div>
+						<i class="icon-remove hop_container_delete"></i>
 				    </form>
 				</div>
 			</div>
 	    </div>
 	    
     </div>
-    <div class="transitionbulletone">•</div>
-    <div class="transitionbullettwo">•</div>
+    <div class="transitionbulletone hop">•</div>
+    <div class="transitionbullettwo hop">•</div>
     
     <div class="addHopContainer">
-    	<button class="btn addhop"><i class="icon-plus"></i> Add a hop</button>
+    	<button class="btn hop_container_add"><i class="icon-plus"></i> Add a hop</button>
     </div>
     
     <div class="transitionbullettwo">•</div>

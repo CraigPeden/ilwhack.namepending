@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">SkyHopper</a>
+          <a class="brand" href="#"><img class="logo" src="<?= base_url('/img/SkyHopper_transparent.png'); ?>"></a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
               Logged in as <a href="#" class="navbar-link">Username</a>
