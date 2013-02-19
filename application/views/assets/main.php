@@ -1,22 +1,21 @@
 <div class="container">
 
 	<div class="hop_container departure">
-		<div class="airports_title">
-    		<h1>Departing Airport</h1>
-		</div>
 		<div class="airports_body">
 			<form class="form-inline">
-				<div class="input-prepend">
-					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
-				</div>
-				<div class="input-prepend">
-					<!--<span class="add-on"><i class="icon-plane"></i></span>-->
-					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
-				</div>
-				<div class="input-prepend">
-					<span class="add-on"><i class="icon-calendar"></i></span>
-					<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp1">
+				<span class="help-inline hop_container_title">Departure</span>
+				<div class="pull-right">
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-plane"></i></span>
+						<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
+					</div>
+					<div class="input-prepend">
+						<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
+					</div>
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-calendar"></i></span>
+						<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp1">
+					</div>
 				</div>
 		    </form>
 		</div>
@@ -34,20 +33,22 @@
 				</div>
 			</div>
 			<div class="airports_body">
-				<form class="form-inline">
-					<div class="input-prepend">
-						<span class="add-on"><i class="icon-plane"></i></span>
-						<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
-					</div>
-					<div class="input-prepend">
-						<!--<span class="add-on"><i class="icon-plane"></i></span>-->
-						<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
-					</div>
-					<div class="input-prepend">
-						<span class="add-on"><i class="icon-calendar"></i></span>
-						<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp1">
-					</div>
-			    </form>
+				<span class="help-inline">Inline help text</span>
+				<div class="pull-right">
+					<form class="form-inline">
+						<div class="input-prepend">
+							<span class="add-on"><i class="icon-plane"></i></span>
+							<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
+						</div>
+						<div class="input-prepend">
+							<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
+						</div>
+						<div class="input-prepend">
+							<span class="add-on"><i class="icon-calendar"></i></span>
+							<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp1">
+						</div>
+				    </form>
+				</div>
 			</div>
 	    </div>
 	    
@@ -58,23 +59,22 @@
     </div>
     <div class="transitionbulletthree">•</div><div class="transitionbullettwo">•</div><div class="transitionbulletone">•</div>
     <div class="hop_container arrival">
-    	<div class="airports_title">
-    		<h1>Arriving Airport</h1>
-    	</div>
     	<div class="airports_body">
     		<form class="form-inline">
-				<div class="input-prepend">
-					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
-				</div>
-				<div class="input-prepend">
-					<!--<span class="add-on"><i class="icon-plane"></i></span>-->
-					<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
-				</div>
-				<div class="input-prepend">
-					<span class="add-on"><i class="icon-calendar"></i></span>
-					<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp2">
-				</div>
+    			<span class="help-inline hop_container_title">Departure</span>
+    			<div class="pull-right">
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-plane"></i></span>
+						<input id="start-airport" type="text" class="span1 airport_code" placeholder="Code" style="border-radius:0px;">
+					</div>
+					<div class="input-prepend">
+						<input id="start-airport" type="text" class="span4 airport" placeholder="Airport" style="border-radius:0px;">
+					</div>
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-calendar"></i></span>
+						<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp2">
+					</div>
+    			</div>
 		    </form>
     	</div>
     </div>
