@@ -39,6 +39,7 @@
 }
 
 .hop_container {
+	width: 940px;
 	padding: 10px 10px;
 	background-color: #eeeeee;
 	  -webkit-border-radius: 6px;
