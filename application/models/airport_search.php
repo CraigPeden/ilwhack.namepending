@@ -10,10 +10,10 @@ class Airport_search extends CI_Model {
 
 		foreach ($database_response->result() as $airport)
 		{
-			array_push($airport_names, $airport->airport);
+			array_push($airport_names, trim($airport->airport));
 		}
 
-		if (count($airport_names) > 5)
+		if (count($airport_names) > 8)
 		{
 			return array();
 		}
