@@ -55,6 +55,10 @@
 	margin-bottom: 10px;
 }
 
+#hop_container {
+	width: 960px;
+}
+
 .hop_container_insert {
 	display: none;
 }
