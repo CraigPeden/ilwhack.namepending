@@ -105,3 +105,11 @@ input.hop-length {
 	text-align: center;
 	width: 30px;
 }
+
+.length-container {
+	margin-left: 5px;
+}
+
+.airport-container {
+	margin-left: 5px;
+}

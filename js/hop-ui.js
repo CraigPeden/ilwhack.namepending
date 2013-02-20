@@ -21,7 +21,7 @@ function add_hop()
 			'<div class="hop_container">' +
 				'<div class="airports_body">' +
 					'<span class="help-inline hop_container_title">' + hop_title + '</span>' +
-					'<div class="input-prepend">' +
+					'<div class="input-prepend airport-container">' +
 						'<span class="add-on"><i class="icon-plane"></i></span>' +
 						'<input type="text" class="span4 airport" placeholder="Airport">' +
 					'</div>' +
