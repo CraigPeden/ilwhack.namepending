@@ -23,13 +23,13 @@ function add_hop()
 					'<span class="help-inline hop_container_title">' + hop_title + '</span>' +
 					'<div class="input-prepend airport-container">' +
 						'<span class="add-on"><i class="icon-plane"></i></span>' +
-						'<input type="text" class="span4 airport" placeholder="Airport">' +
+						'<input type="text" name="hop-' + next_hop_id + '-airport" class="span4 airport" placeholder="Airport">' +
 					'</div>' +
 					'<div class="input-prepend input-append hop length-container">' +
 						'<span class="add-on">Stay For</span>' +
-						'<input type="number" class="hop-length" value="0" min="0" max="99" id="hopDays">' +
+						'<input type="number" class="hop-length" name="hop-' + next_hop_id + '-days" value="0" min="0" max="99" id="hopDays">' +
 						'<span class="add-on">Days</span>' +
-						'<input type="number" class="hop-length" value="10" min="0" max="23" id="hopHrs">' +
+						'<input type="number" class="hop-length" name="hop-' + next_hop_id + '-hours" value="10" min="0" max="23" id="hopHrs">' +
 						'<span class="add-on">Hours</span>' +
 					'</div>' +
 					'<button class="pull-right btn btn-link remove-hop-button" data-hop-id="' + next_hop_id + '"><strong>X</strong></button>' +
@@ -65,5 +65,7 @@ function remove_hop(hop_id)
 $(document).ready(function() {
 	$('#add-hop-button').click(function() {
 		add_hop();
+
+		return false; // Prevent form being submitted
 	});
 });

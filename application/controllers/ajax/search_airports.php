@@ -6,9 +6,10 @@ class Search_airports extends CI_Controller {
 
 		$query = $this->input->post("query");
 
-		$airports = $this->airport_search->get_matching_airport_names($query);
+		$data = $this->airport_search->get_matching_cities($query);
+		$data = array_merge($data, $this->airport_search->get_matching_airport_names($query));
 
 		header('Content-type: application/json');
-		echo json_encode($airports);
+		echo json_encode($data);
 	}
 }
