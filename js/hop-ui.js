@@ -27,7 +27,9 @@ function add_hop()
 					'</div>' +
 					'<div class="input-prepend input-append hop length-container">' +
 						'<span class="add-on">Stay For</span>' +
-						'<input type="text" class="hop-length" value="10">' +
+						'<input type="number" class="hop-length" value="0" min="0" max="99" id="hopDays">' +
+						'<span class="add-on">Days</span>' +
+						'<input type="number" class="hop-length" value="10" min="0" max="23" id="hopHrs">' +
 						'<span class="add-on">Hours</span>' +
 					'</div>' +
 					'<button class="pull-right btn btn-link remove-hop-button" data-hop-id="' + next_hop_id + '"><strong>X</strong></button>' +

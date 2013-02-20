@@ -107,7 +107,12 @@
 
 input.hop-length {
 	text-align: center;
-	width: 30px;
+	width: 40px;
+}
+
+input.passengers {
+	text-align: center;
+	width: 40px;
 }
 
 .length-container {

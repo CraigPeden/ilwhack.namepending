@@ -16,7 +16,12 @@
 			</div>
 			<div class="input-prepend">
 				<span class="add-on"><i class="icon-calendar"></i></span>
-				<input type="text" class="span2" placeholder="Departure Date" data-date-format="dd/mm/yy" id="dp1">
+				<input type="text" class="span1" placeholder="Date" data-date-format="dd/mm/yy" id="dp1">
+			</div>
+			<div class="input-prepend">
+				<span class="add-on"><i class="icon-user"></i></span>
+				<input type="number" class="passengers" id="passengers" value="1" min="1" max="8">
+				<span class="add-on">Passengers</span>
 			</div>
 		</div>
     </div>
