@@ -1,7 +1,12 @@
 <script type="text/javascript" src="<?= base_url('js/hop-ui.js'); ?>"></script>
-
-<div class="container">
-
+<div class="container splash">
+	<div class="jumbotron">
+        <h1><img src="<?= base_url('img/SkyHopper_Jumbo.jpeg');?>" /></h1>
+        <p class="lead"><img src="<?= base_url('img/SkyHopper_transparent.png');?>" /></p>
+        <a class="btn btn-large btn-primary splash_activate" href="#">Start Hopping!</a>
+    </div>
+</div>
+<div class="container application" style="display:none;">
 	<div class="hop_container departure">
 		<div class="airports_body">
 			<form class="form-inline">
@@ -42,3 +47,4 @@
 		    </form>
     	</div>
     </div>
+</div>
