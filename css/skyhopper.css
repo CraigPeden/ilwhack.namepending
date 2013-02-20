@@ -28,7 +28,7 @@
 	width: 180px;
 }
 
-.hop_container_add {
+#add-hop-button {
 	margin-left: auto;
 	margin-right: auto;
 	width: 180px;
@@ -47,6 +47,7 @@
 	  -webkit-border-radius: 6px;
 	     -moz-border-radius: 6px;
 	          border-radius: 6px;
+	height: 20px;
 }
 
 .airports_title {
@@ -69,6 +70,8 @@
 	line-height: 20px;
 	color: inherit;
 	text-rendering: optimizelegibility;
+	margin-top: 4px;
+	width: 200px;
 }
 
 .logo {
@@ -78,4 +81,9 @@
 .brand {
 	padding-top: 5px !important;
 	padding-bottom: 5px !important;
+}
+
+input.hop-length {
+	text-align: center;
+	width: 30px;
 }

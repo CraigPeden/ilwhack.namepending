@@ -11,10 +11,16 @@ function do_search(search_term, sender)
 	});
 }
 
-jQuery(document).ready(function() {
+function attatch_airport_search_event_hander()
+{
+	// This needs to be called every time a hop is added
 	jQuery('input.airport').keyup(function() {
 		var search_term = jQuery(this).val();
 
 		do_search(search_term, this);
 	});
+}
+
+jQuery(document).ready(function() {
+	attatch_airport_search_event_hander();
 });
