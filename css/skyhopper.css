@@ -57,6 +57,7 @@
 
 #hop_container {
 	width: 960px;
+	margin: 0 auto;
 }
 
 .hop_container_insert {
