@@ -28,8 +28,8 @@
     </div>
     
     <div class="hop_container_insert hop">
-    	<div class="transitionbulletone">•</div>
-    	<div class="transitionbullettwo">•</div>
+    	<div class="transitionbulletone hop">•</div>
+    	<div class="transitionbullettwo hop">•</div>
 	    <div class="hop_container">
 			<div class="airports_body">
 				<span class="help-inline hop_container_title">Hop</span>
@@ -53,8 +53,8 @@
 	    </div>
 	    
     </div>
-    <div class="transitionbulletone hop">•</div>
-    <div class="transitionbullettwo hop">•</div>
+    <div class="transitionbulletone">•</div>
+    <div class="transitionbullettwo">•</div>
     
     <div class="addHopContainer">
     	<button class="btn hop_container_add"><i class="icon-plus"></i> Add a hop</button>

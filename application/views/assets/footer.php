@@ -14,8 +14,8 @@
 				$('#dp1').datepicker();
 				$('#dp2').datepicker();
 				$(".hop_container_add").click(function () {
-					$(".hop").first().show("slow", function showNext() {
-						$(this).next(".hop").show("slow", showNext);
+					$(".hop").first().show('blind', 600, function showNext() {
+						$(this).next(".hop").show('blind', showNext);
 					});
 				});
 				$(".hop_container_delete").click(function(){ 
