@@ -2,7 +2,7 @@
 	<div class="jumbotron">
         <h1><img src="<?= base_url('img/SkyHopper_Jumbo.jpeg');?>" /></h1>
         <p class="lead"><img src="<?= base_url('img/SkyHopper_transparent.png');?>" /></p>
-        <a class="btn btn-large btn-success splash_activate" href="#">Start Hopping!</a>
+        <a class="btn btn-large btn-primary splash_activate" href="#">Start Hopping!</a>
     </div>
 </div>
 <div class="container application" style="display:none;">
