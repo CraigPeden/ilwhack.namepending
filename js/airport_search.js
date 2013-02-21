@@ -2,7 +2,7 @@ function do_search(search_term, sender)
 {
 	jQuery(sender).typeahead({
 		source: function(query, process) {
-			return jQuery.post('index.php/ajax/search_airports/do_search/', {
+			return jQuery.post(ci_site_url + '/ajax/search_airports/do_search/', {
 				query: query
 			}, function(data) {
 				return process(data);

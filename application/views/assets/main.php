@@ -13,15 +13,15 @@
 				<span class="help-inline hop_container_title">Leave From</span>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="start-airport" type="text" class="span3 airport" placeholder="Airport">
+					<input id="start-airport" autocomplete="off" type="text" name="start-airport" class="span3 airport" placeholder="Airport">
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-calendar"></i></span>
-					<input type="text" class="span2" placeholder="Date" data-date-format="dd/mm/yy" id="dp1">
+					<input type="text" class="span2" autocomplete="off" placeholder="Date" name="start-date" data-date-format="dd/mm/yy" id="dp1">
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-user"></i></span>
-					<input type="number" class="passengers" id="passengers" value="1" min="1" max="8">
+					<input type="number" class="passengers" autocomplete="off" id="passengers" name="num-passengers" value="1" min="1" max="8">
 					<span class="add-on">Passengers</span>
 				</div>
 		    </div>
@@ -45,7 +45,7 @@
 				<span class="help-inline hop_container_title">Destination</span>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="final-airport" name="final-airport" type="text" class="span4 airport" placeholder="Airport">
+					<input id="final-airport" autocomplete="off" name="final-airport" type="text" class="span4 airport" placeholder="Airport">
 				</div>
 	    	</div>
 	    </div>
