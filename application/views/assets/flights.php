@@ -4,20 +4,26 @@
 			<table class="table table-striped table-hover" style="text-align:center;">
             	<thead>
                 	<tr>
-	                	<th>Edinburgh -> London</th>
+	                	<th>Hop 1</th>
 	                </tr>
 	            </thead>
 	            <tbody>
                 	<tr>
 	                	<td class="result">
+	                		<div class="result_airports">
+	                			Edinburgh -> Heathrow
+	                		</div>
 	                		<div class="result_logo">
 	                			<img src="<?= base_url('img/carriers/british_airways.jpg');?>">
 	                		</div>
-	                		<div class="result_code">
-	                			BAXX0046
+	                		<div class="result_time clearfix">
+	                			<div class="pull-left">12:56</div>
+	                			<div class="pull-right">2/16/12</div>
 	                		</div>
-	                		<div class="result_cost">
-	                			£250
+	                		</div>
+	                		<div class="result_bottom" style="padding-top:5px;">
+	                			<div class="pull-left result_cost" style="padding-top:7px;">£250</div>
+	                			<div class="pull-right"><a class="btn" href="#">Select</a></div>
 	                		</div>
 	                	</td>
 	                </tr>
