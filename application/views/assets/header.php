@@ -39,7 +39,7 @@
           <a class="brand" href="#"><img class="logo" src="<?= base_url('/img/SkyHopper_transparent.png'); ?>"></a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+             <!-- Logged in as <a href="#" class="navbar-link">Username</a> -->
             </p>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
