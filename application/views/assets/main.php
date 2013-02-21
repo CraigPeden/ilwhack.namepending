@@ -13,7 +13,7 @@
 				<span class="help-inline hop_container_title">Leave From</span>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="start-airport" type="text" class="span3 airport" placeholder="Airport">
+					<input id="start-airport" type="text" class="span3 airport" placeholder="Airport" autocomplete="off">
 				</div>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-calendar"></i></span>
@@ -45,7 +45,7 @@
 				<span class="help-inline hop_container_title">Destination</span>
 				<div class="input-prepend">
 					<span class="add-on"><i class="icon-plane"></i></span>
-					<input id="final-airport" name="final-airport" type="text" class="span4 airport" placeholder="Airport">
+					<input id="final-airport" name="final-airport" type="text" class="span4 airport" placeholder="Airport" autocomplete="off">
 				</div>
 	    	</div>
 	    </div>
