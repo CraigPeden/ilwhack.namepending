@@ -48,6 +48,8 @@ function add_hop()
 
 		$('button.remove-hop-button').click(function() {
 			remove_hop($(this).attr("data-hop-id"));
+
+			return false; // Prevent form being submitted
 		});
 
 		next_hop_id++;
