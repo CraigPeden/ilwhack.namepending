@@ -40,11 +40,13 @@
 	                		<div class="result_logo">
 	                			<img src="<?= base_url('img/carriers/american_airlines.png');?>">
 	                		</div>
-	                		<div class="result_code">
-	                			BAXX0046
-	                		</div>
-	                		<div class="result_cost">
-	                			£250
+	                		<div class="row-fluid">
+		                		<div class="result_code">
+		                			BAXX0046
+		                		</div>
+		                		<div class="result_cost">
+		                			£250
+		                		</div>
 	                		</div>
 	                	</td>
 			        </tr>
