@@ -14,4 +14,11 @@ class Testing extends CI_Controller {
 
 		print_r($data);
 	}
+
+	function test_data()
+	{
+		$this->load->model("flights_model");
+
+		print_r($this->flights_model->build_hop(3, "foo", "bar"));
+	}
 }
