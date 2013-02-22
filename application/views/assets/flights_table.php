@@ -16,11 +16,13 @@
 						<img alt="" src="<?= $row->logo; ?>" />
 					</div>
 					<div class="result_time clearfix">
-						<div class="pull-left">Dep: <?= $row->departure_time;?>
-						</div>
-						<div class="pull-left">Arr: <?= $row->arrival_time;?>
-						</div>
-					</div>
+            			<?php $date = new DateTime($row->departure_time); ?>
+            			Departure: <div class="pull-right"><?= $date->format('D M j H:i');?>
+            		</div>
+        			<div class="result_time clearfix">
+        				<?php $date = new DateTime($row->arrival_time); ?>
+            			Arrival: <div class="pull-right"><?= $date->format('D M j H:i');?>
+        			</div>
 					</div>
 					<div class="result_bottom" style="padding-top:5px;">
 						<div class="pull-left result_cost" style="padding-top:7px;">£<?= $row->cost; ?></div>
