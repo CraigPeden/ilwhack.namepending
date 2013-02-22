@@ -18,8 +18,9 @@
 		
 		function index()
 		{				
+			
 			$this->load->view('assets/header');
-			$this->load->view('assets/flights');
+			$this->load->view('assets/flights', array('flights_one' => $this->flights_model->get_flight_results()));
 			$this->load->view('assets/footer');
 		}
 		
