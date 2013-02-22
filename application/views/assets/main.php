@@ -7,7 +7,7 @@
     </div>
 </div>
 <div class="container application" style="display:none;">
-	<form action="/index.php/testing" method="POST">
+	<form action="<?= base_url('/index.php/flights');?>" method="POST">
 		<div class="hop_container departure">
 			<div class="airports_body">
 				<span class="help-inline hop_container_title">Leave From</span>
@@ -49,8 +49,8 @@
 				</div>
 	    	</div>
 	    </div>
-	    <div class="form-actions">
-	    	<input type="submit" value="Submit" class="btn btn-success pull-right">
+	    <div class="submit_container">
+	    	<input type="submit" value="Submit" class="btn btn-large btn-success pull-rights">
 	    </div>
 	</form>
 </div>

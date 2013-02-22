@@ -1,66 +1,37 @@
-<?php //print_r($flights_one); ?><br />
-<?= ($flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->MinPrice); ?>
 <div class="container results">
 	<div class="row-fluid">
-		<div class="span2">
+		<div class="span3">
 			<table class="table table-striped table-hover" style="text-align:center;">
             	<thead>
                 	<tr>
-	                	<th>Hop 1</th>
+	                	<th class="hop_title">Hop 1</th>
 	                </tr>
 	            </thead>
 	            <tbody>   	
-	            	<?php foreach()
+	            	<?php foreach($hop_1 as $row) { ?>
                 	<tr>
 	                	<td class="result">
 	                		<div class="result_airports">
-	                			<?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->OriginId . " -> " . $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->DestinationId;?>
+	                			<?= $row->origin . " -> " . $row->destination;?>
 	                		</div>
 	                		<div class="result_logo">
-	                			<?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->DestinationId; ?>
+	                			<img alt="" src="<?= $row->logo; ?>" />
 	                		</div>
 	                		<div class="result_time clearfix">
-	                			<div class="pull-left">Dep: <?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->DepartureDate;?>
-	                			</div>
-	                			<div class="pull-left">Arr: <?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->ArrivalDate;?>
-	                			</div>
+	                			<?php $date = new DateTime($row->departure_time); ?>
+	                			Departure: <div class="pull-right"><?= $date->format('D M j H:i');?>
 	                		</div>
-	                		</div>
+                			<div class="result_time clearfix">
+                				<?php $date = new DateTime($row->arrival_time); ?>
+	                			Arrival: <div class="pull-right"><?= $date->format('D M j H:i');?>
+                			</div>
 	                		<div class="result_bottom" style="padding-top:5px;">
-	                			<div class="pull-left result_cost" style="padding-top:7px;">£<?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->MinPrice; ?></div>
-	                			<div class="pull-right"><a class="btn" href="#">Select</a></div>
+	                			<div class="pull-left result_cost" style="padding-top:7px;">£<?= $row->cost; ?></div>
+	                			<div class="pull-right"><a class="btn" href="#" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</a></div>
 	                		</div>
 	                	</td>
 	                </tr>
-	                <tr>
-	                	<td class="result">
-	                		<div class="result_logo">
-	                			<img src="<?= base_url('img/carriers/lufthansa.jpg');?>">
-	                		</div>
-	                		<div class="result_code">
-	                			BAXX0046
-	                		</div>
-	                		<div class="result_cost">
-	                			£250
-	                		</div>
-	                	</td>
-	                </tr>
-
-		            <tr>
-			            <td class="result">
-	                		<div class="result_logo">
-	                			<img src="<?= base_url('img/carriers/american_airlines.png');?>">
-	                		</div>
-	                		<div class="row-fluid">
-		                		<div class="result_code">
-		                			BAXX0046
-		                		</div>
-		                		<div class="result_cost">
-		                			£250
-		                		</div>
-	                		</div>
-	                	</td>
-			        </tr>
+	                <?php } ?>
 			    </tbody>
             </table>
 		</div>

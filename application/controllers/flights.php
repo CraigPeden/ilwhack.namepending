@@ -12,7 +12,7 @@
 		{				
 			
 			$this->load->view('assets/header');
-			$this->load->view('assets/flights', array('flights_one' => $this->flights_model->get_flight_results()));
+			$this->load->view('assets/flights', array('hop_1' => $this->flights_model->build_hop(1, false, false)));
 			$this->load->view('assets/footer');
 		}
 		
