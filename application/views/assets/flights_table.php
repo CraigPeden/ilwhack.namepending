@@ -10,7 +10,7 @@
 			<tr>
 				<td class="result">
 					<div class="result_airports">
-						<?= $row->origin . " -> " . $row->destination;?>
+						<?= $row->origin . " → " . $row->destination;?>
 					</div>
 					<div class="result_logo">
 						<img alt="" src="<?= $row->logo; ?>" />
