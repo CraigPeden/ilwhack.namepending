@@ -1,5 +1,7 @@
+<script type="text/javascript" src="<?= base_url("js/flight-picker.js") ?>"></script>
+
 <div class="container results">
-	<div class="row-fluid">
+	<div class="row-fluid" id="hop-flights-container">
 		<div class="span3">
 			<table class="table table-striped table-hover" style="text-align:center;">
             	<thead>
@@ -27,7 +29,7 @@
                 			</div>
 	                		<div class="result_bottom" style="padding-top:5px;">
 	                			<div class="pull-left result_cost" style="padding-top:7px;">£<?= $row->cost; ?></div>
-	                			<div class="pull-right"><a class="btn" href="#" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</a></div>
+	                			<div class="pull-right"><button class="btn select_flight_button" data-hop="1" data-origin="<?= $row->origin;?>" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</button></div>
 	                		</div>
 	                	</td>
 	                </tr>
