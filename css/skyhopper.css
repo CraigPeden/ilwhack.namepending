@@ -133,6 +133,10 @@ input.passengers {
 	padding-top: 5px;
 }
 
+.result_cost {
+	font-size: 20px;
+}
+
 .route, .carrier, .code, .price, .total {
 	font-size: 20px;
 	height: 50px;
@@ -140,4 +144,14 @@ input.passengers {
 
 .application {
 	width: 960px !important;
+}
+
+.hop_title {
+	text-align: center !important;
+}
+
+.submit_container {
+	padding-top: 15px;
+	width: 100px;
+	margin: 0 auto;
 }
