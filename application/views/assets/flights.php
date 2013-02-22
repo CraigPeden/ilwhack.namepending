@@ -6,7 +6,7 @@
 	  </li>
 	</ul>
 	<div class="row-fluid" id="hop-flights-container">
-		<div class="span3">
+		<div class="span3" id="hop-1-container">
 			<table class="table table-striped table-hover" style="text-align:center;">
 	        	<thead>
 	            	<tr>
