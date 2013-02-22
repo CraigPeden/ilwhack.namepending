@@ -19,6 +19,7 @@ class Get_next_hop_flights extends CI_Controller {
 
 		$data['flights'] = $flights_data;
 		$data['hop_number'] = $hop_number;
+		$data['num_hops'] = $this->input->get("num_hops");
 
 		$this->load->view("assets/flights_table", $data);
 	}

@@ -1,3 +1,23 @@
+<?php
+	$post_variables = array_keys($_POST);
+
+	$num_hops = 0;
+
+	foreach ($post_variables as $variable)
+	{
+		if (strpos($variable, "hop-") !== FALSE && strpos($variable, "-airport") !== FALSE)
+		{
+			$num_hops++;
+		}
+	}
+
+	$num_hops++;
+?>
+
+<script type="text/javascript">
+	var num_hops = <?= $num_hops; ?>;
+</script>
+
 <script type="text/javascript" src="<?= base_url("js/flight-picker.js") ?>"></script>
 
 <div class="container results">
