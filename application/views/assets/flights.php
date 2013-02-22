@@ -1,4 +1,9 @@
 <div class="container results">
+	<ul class="pager">
+	  <li class="previous">
+	    <a href="<?= base_url();?>">Back to Hop Selection</a>
+	  </li>
+	</ul>
 	<div class="row-fluid">
 		<div class="span3">
 			<table class="table table-striped table-hover" style="text-align:center;">
@@ -12,7 +17,7 @@
                 	<tr>
 	                	<td class="result">
 	                		<div class="result_airports">
-	                			<?= $row->origin . " -> " . $row->destination;?>
+	                			<?= $row->origin . " → " . $row->destination;?>
 	                		</div>
 	                		<div class="result_logo">
 	                			<img alt="" src="<?= $row->logo; ?>" />
