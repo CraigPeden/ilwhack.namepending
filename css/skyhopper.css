@@ -157,6 +157,6 @@ input.passengers {
 }
 
 .deselected {
-	opacity:0.5;
+	opacity:0.5 !important;
 	filter:Alpha(opacity=50); /* IE8 and earlier */
 }

@@ -26,7 +26,7 @@
 	  </li>
 	</ul>
 	<div class="row-fluid" id="hop-flights-container">
-		<div class="span3">
+		<div class="span3" id="hop-1-container">
 			<table class="table table-striped table-hover" style="text-align:center;">
 	        	<thead>
 	            	<tr>
@@ -53,7 +53,7 @@
 	            			</div>
 	                		<div class="result_bottom" style="padding-top:5px;">
 	                			<div class="pull-left result_cost" style="padding-top:7px;">£<?= $row->cost; ?></div>
-	                			<div class="pull-right"><button class="btn select_flight_button" data-hop="1" data-origin="<?= $row->origin;?>" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</button></div>
+	                			<div class="pull-right"><button class="btn select_flight_button button1" data-hop="1" data-origin="<?= $row->origin;?>" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</button></div>
 	                		</div>
 	                	</td>
 	                </tr>

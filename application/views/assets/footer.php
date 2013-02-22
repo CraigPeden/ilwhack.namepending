@@ -25,9 +25,7 @@
 					$(".splash").hide();
 					event.preventDefault()
 				});
-
 			});
-			
 		</script>
 	</body>
 </html>
