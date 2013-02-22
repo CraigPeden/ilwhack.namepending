@@ -23,7 +23,20 @@ function add_next_hop(sender)
 		$('button.select_flight_button').click(function() {
 			add_next_hop(this);
 		});
+
+		calculate_total();
 	});
+}
+
+function calculate_total()
+{
+	var total = 0;
+
+	$('button.select_flight_button.btn-success').each(function(index, element) {
+		total += parseInt($(element).attr("data-price"));
+	});
+
+	$('#price-container').text("Total: £" + total);
 }
 
 $(document).ready(function() {

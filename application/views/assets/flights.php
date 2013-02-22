@@ -53,7 +53,7 @@
 	            			</div>
 	                		<div class="result_bottom" style="padding-top:5px;">
 	                			<div class="pull-left result_cost" style="padding-top:7px;">£<?= $row->cost; ?></div>
-	                			<div class="pull-right"><button class="btn select_flight_button button1" data-hop="1" data-origin="<?= $row->origin;?>" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</button></div>
+	                			<div class="pull-right"><button class="btn select_flight_button button1" data-price="<?= $row->cost; ?>" data-hop="1" data-origin="<?= $row->origin;?>" data-destination="<?= $row->destination; ?>" data-arrival_time="<?= $row->arrival_time; ?>">Select</button></div>
 	                		</div>
 	                	</td>
 	                </tr>
