@@ -1,4 +1,4 @@
-<?= print_r($flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]); ?><br />
+<?php //print_r($flights_one); ?><br />
 <?= ($flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->MinPrice); ?>
 <div class="container results">
 	<div class="row-fluid">
@@ -10,6 +10,7 @@
 	                </tr>
 	            </thead>
 	            <tbody>   	
+	            	<?php foreach()
                 	<tr>
 	                	<td class="result">
 	                		<div class="result_airports">

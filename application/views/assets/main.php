@@ -19,7 +19,7 @@
 					<span class="add-on"><i class="icon-calendar"></i></span>
 					<input type="text" class="span2" autocomplete="off" placeholder="Date" name="start-date" data-date-format="dd/mm/yy" id="dp1">
 				</div>
-				<div class="input-prepend">
+				<div class="input-append input-prepend">
 					<span class="add-on"><i class="icon-user"></i></span>
 					<input type="number" class="passengers" autocomplete="off" id="passengers" name="num-passengers" value="1" min="1" max="8">
 					<span class="add-on">Passengers</span>
@@ -49,7 +49,8 @@
 				</div>
 	    	</div>
 	    </div>
-
-	    <input type="submit" value="Submit" class="btn btn-success">
+	    <div class="form-actions">
+	    	<input type="submit" value="Submit" class="btn btn-success pull-right">
+	    </div>
 	</form>
 </div>

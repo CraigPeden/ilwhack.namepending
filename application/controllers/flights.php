@@ -5,16 +5,8 @@
 
 		function __construct() 
 		{
-			
 			parent::__construct();
-			/*if (!$this->User_model->logged_in()) 
-			{
-				$this->session->set_flashdata('current_url', uri_string());
-				redirect('Login');	
-			}*/
 		}
-
-		// Main Page
 		
 		function index()
 		{				
@@ -26,5 +18,5 @@
 		
 	}
 	
-/* End of file Namepending.php */
+/* End of file Flights.php */
 /* Location: ../application/controllers */
