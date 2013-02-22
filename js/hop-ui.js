@@ -23,7 +23,7 @@ function add_hop()
 					'<span class="help-inline hop_container_title">' + hop_title + '</span>' +
 					'<div class="input-prepend airport-container">' +
 						'<span class="add-on"><i class="icon-plane"></i></span>' +
-						'<input type="text" name="hop-' + next_hop_id + '-airport" autocomplete="off" class="span4 airport" placeholder="Airport">' +
+						'<input type="text" name="hop-' + next_hop_id + '-airport" autocomplete="off" class="span3 airport" placeholder="Airport">' +
 					'</div>' +
 					'<div class="input-prepend input-append hop length-container">' +
 						'<span class="add-on">Stay For</span>' +
