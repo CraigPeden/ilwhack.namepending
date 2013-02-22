@@ -160,3 +160,8 @@ input.passengers {
 	opacity:0.5 !important;
 	filter:Alpha(opacity=50); /* IE8 and earlier */
 }
+
+.final_submit_button {
+	margin-left: 25px;
+	margin-top: 35px;
+}

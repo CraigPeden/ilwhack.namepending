@@ -37,5 +37,5 @@
 	</div>
 <?php else: ?>
 	</div>
-	<button class="btn btn-primary btn-large" style="margin-left: 10px;" id="submit-flights">Submit Flight Selection</button>
+	<button class="btn btn-primary btn-large final_submit_button" id="submit-flights">Submit Flight Selection</button>
 <?php endif; ?>

@@ -193,7 +193,7 @@ class Flights_model extends CI_Model {
 				"CarrierIds": { "int": "4" },
 				"OriginId": "1",
 				"DestinationId": "3",
-				"DepartureDate": "2013-03-03T08:21:00",
+				"DepartureDate": "2013-03-06T08:21:00",
 				"ArrivalDate": "2013-03-06T13:41:00"
 				}
 			}
@@ -255,8 +255,8 @@ class Flights_model extends CI_Model {
 				"CarrierIds": { "int": "2" },
 				"OriginId": "1",
 				"DestinationId": "2",
-				"DepartureDate": "2013-03-07T13:13:00",
-				"ArrivalDate": "2013-03-06T15:43:00"
+				"DepartureDate": "2013-03-08T13:13:00",
+				"ArrivalDate": "2013-03-08T15:43:00"
 				}
 			},
 			{
@@ -267,8 +267,8 @@ class Flights_model extends CI_Model {
 				"CarrierIds": { "int": "2" },
 				"OriginId": "1",
 				"DestinationId": "2",
-				"DepartureDate": "2013-03-07T15:31:00",
-				"ArrivalDate": "2013-03-06T18:02:00"
+				"DepartureDate": "2013-03-08T15:31:00",
+				"ArrivalDate": "2013-03-08T18:02:00"
 				}
 			},
 			{
@@ -280,7 +280,7 @@ class Flights_model extends CI_Model {
 				"OriginId": "1",
 				"DestinationId": "2",
 				"DepartureDate": "2013-03-08T16:43:00",
-				"ArrivalDate": "2013-03-06T19:13:00"
+				"ArrivalDate": "2013-03-08T19:13:00"
 				}
 			}
 			]
