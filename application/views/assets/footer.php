@@ -25,10 +25,6 @@
 					$(".splash").hide();
 					event.preventDefault()
 				});
-				$(".select_flight_button").click(function(){
-					document.getElementById("hop-1-container").className += " deselected";
-					event.preventDefault()
-				});
 			});
 			
 		</script>
