@@ -9,7 +9,7 @@
 		<script type="text/javascript" src="<?= base_url('/js/airport_search.js'); ?>"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('#dp1').datepicker();
+				$('#dp1').datepicker('setStartDate', Date());
 				$('#dp2').datepicker();
 				$(".hop_container_add").click(function () {
 					$(".hop").first().show('blind', 600, function showNext() {
