@@ -27,7 +27,17 @@ class Flights_model extends CI_Model {
 
 			$flight->logo = base_url("/img/carriers/$logo_name");
 
-			array_push($hop_data, json_decode(json_encode($flight)));
+			if (!$origin && !$earliest_departure)
+			{
+				array_push($hop_data, json_decode(json_encode($flight)));
+			}
+			else
+			{
+				if ($origin == $flight->origin)
+				{
+					array_push($hop_data, json_decode(json_encode($flight)));
+				}
+			}
 		}
 
 		return $hop_data;
