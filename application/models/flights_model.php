@@ -77,7 +77,7 @@ class Flights_model extends CI_Model {
 			"QuoteDto": [
 			{
 				"QuoteId": "1",
-				"MinPrice": "720",
+				"MinPrice": "697",
 				"Direct": "true",
 				"OutboundLeg": {
 				"CarrierIds": { "int": "1" },
@@ -101,7 +101,7 @@ class Flights_model extends CI_Model {
 			},
 			{
 				"QuoteId": "3",
-				"MinPrice": "697",
+				"MinPrice": "720",
 				"Direct": "true",
 				"OutboundLeg": {
 				"CarrierIds": { "int": "2" },
@@ -249,7 +249,7 @@ class Flights_model extends CI_Model {
 			"QuoteDto": [
 			{
 				"QuoteId": "1",
-				"MinPrice": "276",
+				"MinPrice": "256",
 				"Direct": "true",
 				"OutboundLeg": {
 				"CarrierIds": { "int": "2" },
@@ -261,7 +261,7 @@ class Flights_model extends CI_Model {
 			},
 			{
 				"QuoteId": "2",
-				"MinPrice": "256",
+				"MinPrice": "276",
 				"Direct": "true",
 				"OutboundLeg": {
 				"CarrierIds": { "int": "2" },
