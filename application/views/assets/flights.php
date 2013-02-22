@@ -1,7 +1,7 @@
 <div class="container results">
-	<ul class="pager">
+	<ul class="pager" style="margin: 0 !important">
 	  <li class="previous">
-	    <a href="<?= base_url();?>">Back to Hop Selection</a>
+	    <a href="<?= base_url();?>">← Hop Selection</a>
 	  </li>
 	</ul>
 	<div class="row-fluid">
