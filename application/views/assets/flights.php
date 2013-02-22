@@ -1,23 +1,33 @@
+<?= print_r($flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]); ?><br />
+<?= ($flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->MinPrice); ?>
 <div class="container results">
 	<div class="row-fluid">
 		<div class="span2">
 			<table class="table table-striped table-hover" style="text-align:center;">
             	<thead>
                 	<tr>
-	                	<th>Edinburgh -> London</th>
+	                	<th>Hop 1</th>
 	                </tr>
 	            </thead>
-	            <tbody>
+	            <tbody>   	
                 	<tr>
 	                	<td class="result">
+	                		<div class="result_airports">
+	                			<?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->OriginId . " -> " . $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->DestinationId;?>
+	                		</div>
 	                		<div class="result_logo">
-	                			<img src="<?= base_url('img/carriers/british_airways.jpg');?>">
+	                			<?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->DestinationId; ?>
 	                		</div>
-	                		<div class="result_code">
-	                			BAXX0046
+	                		<div class="result_time clearfix">
+	                			<div class="pull-left">Dep: <?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->DepartureDate;?>
+	                			</div>
+	                			<div class="pull-left">Arr: <?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->OutboundLeg->ArrivalDate;?>
+	                			</div>
 	                		</div>
-	                		<div class="result_cost">
-	                			£250
+	                		</div>
+	                		<div class="result_bottom" style="padding-top:5px;">
+	                			<div class="pull-left result_cost" style="padding-top:7px;">£<?= $flights_one->BrowseQuotesResponseDto->Quotes->QuoteDto[0]->MinPrice; ?></div>
+	                			<div class="pull-right"><a class="btn" href="#">Select</a></div>
 	                		</div>
 	                	</td>
 	                </tr>
@@ -50,111 +60,8 @@
 	                		</div>
 	                	</td>
 			        </tr>
-			        <tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
-			        <tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
-			        <tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
 			    </tbody>
             </table>
-		</div>
-		<div class="span2">
-			<table class="table table-striped table-hover">
-            	<thead>
-                	<tr>
-	                	<th>London -> New York</th>
-	                </tr>
-	            </thead>
-	            <tbody>
-                	<tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
-			        <tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
-			        <tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
-			    </tbody>
-            </table>
-		</div>
-		<div class="span2">
-			<table class="table table-striped table-hover">
-            	<thead>
-                	<tr>
-	                	<th>New York -> San Fran </th>
-	                </tr>
-	            </thead>
-	            <tbody>
-                	<tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			            <tr>
-	                	<td>£750</td>
-	                </tr>
-	                <tr>
-		                <td>£800</td>
-		            </tr>
-		            <tr>
-			            <td>£900</td>
-			        </tr>
-			        </tr>
-			    </tbody>
-            </table>
-		</div>
-		<div class="span2">
-			My name is
-		</div>
-		<div class="span2">
-			Hello
-		</div>
-		<div class="span2">
-			My name is
 		</div>
 	</div>
 </div>
